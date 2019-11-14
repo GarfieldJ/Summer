@@ -10,6 +10,9 @@
         }
     </style>
     <link href="love/css/default.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="love/css/solid.css">
+    <link rel="stylesheet" href="love/css/fontawesome.css">
+    <link rel="stylesheet" href="love/css/style.css">
     <script type="text/javascript" src="love/js/jquery.js"></script>
     <script type="text/javascript" src="love/js/garden.js"></script>
     <script type="text/javascript" src="love/js/functions.js"></script>
@@ -45,6 +48,56 @@
         自然，此页献给SunM
     </div>
 </div>
+
+<div id="dowebok">
+    <div id="bg-artwork"></div>
+    <div id="bg-layer"></div>
+    <div id="player">
+        <div id="player-track">
+            <div id="album-name"></div>
+            <div id="track-name"></div>
+            <div id="track-time">
+                <div id="current-time"></div>
+                <div id="track-length"></div>
+            </div>
+            <div id="s-area">
+                <div id="ins-time"></div>
+                <div id="s-hover"></div>
+                <div id="seek-bar"></div>
+            </div>
+        </div>
+        <div id="player-content">
+            <div id="album-art">
+                <img src="love/images/1.jpg" class="active" id="_1">
+                <img src="love/images/2.jpg" id="_2">
+                <img src="love/images/3.jpg" id="_3">
+                <img src="love/images/4.jpg" id="_4">
+                <img src="love/images/5.jpg" id="_5">
+                <div id="buffer-box">加载中...</div>
+            </div>
+            <div id="player-controls">
+                <div class="control">
+                    <div class="button" id="play-previous">
+                        <i class="fas fa-backward"></i>
+                    </div>
+                </div>
+                <div class="control">
+                    <div class="button" id="play-pause-button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="control">
+                    <div class="button" id="play-next">
+                        <i class="fas fa-forward"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="love/js/jquery.min.js"></script>
+<script src="love/js/index.js"></script>
 <script type="text/javascript">
     var offsetX = $("#loveHeart").width() / 2;
     var offsetY = $("#loveHeart").height() / 2 - 55;
