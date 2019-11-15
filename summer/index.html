@@ -18,9 +18,23 @@
     <script type="text/javascript" src="love/js/garden.js"></script>
     <script type="text/javascript" src="love/js/functions.js"></script>
     <script src="love/js/index.js"></script>
+    <script type="text/javascript" src="love/js/snow.js"></script>
 </head>
 
 <body>
+
+<script>
+    $(function(){
+        $.fn.snow({
+            minSize: 10,	//雪花的最小尺寸
+            maxSize: 40, 	//雪花的最大尺寸
+            newOn: 500,		//雪花出现的频率 这个数值越小雪花越多
+            flakeColor: "#FFFFFF",
+            durationMillis: null  // 一定时间后停止产生
+        });
+    });
+</script>
+
 <div id="mainDiv">
     <div id="content">
         <div id="bg-artwork"></div>
@@ -29,6 +43,11 @@
             <div id="code">
                 <span class="comments">/**</span><br/>
                 <span class="space"/><span class="comments">* 万种风情·只说予你.</span><br/>
+                <span class="space"/><span class="comments">* </span><br/>
+                <span class="space"/><span class="comments">* 如果你想看雪</span><br/>
+                <span class="space"/><span class="comments">* 那我们就造一场雪</span><br/>
+                <span class="space"/><span class="comments">* 只要你愿意</span><br/>
+                <span class="space"/><span class="comments">* 想下多久都可以</span><br/>
                 <span class="space"/><span class="comments">*/</span><br/>
                 Boy i = <span class="keyword">new</span> Boy(<span class="string">"Garfield"</span>);<br/>
                 Girl u = <span class="keyword">new</span> Girl(<span class="string">"Summer"</span>);<br/>
@@ -96,6 +115,7 @@
 </div>
 
 <script type="text/javascript">
+    /* garfen.js中使用 */
     var offsetX = $("#loveHeart").width() / 2;
     var offsetY = $("#loveHeart").height() / 2 - 55;
     var together = new Date();
