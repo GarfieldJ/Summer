@@ -141,7 +141,7 @@ body {
     right: -30px;
     bottom: -30px;
     left: -30px;
-    background-image: url(../images/1.jpg);
+    background-image: url(../images/Summer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -164,7 +164,7 @@ body {
 #player {
     position: relative;
     top: 50px;
-    height: 30%;
+    height: 25%;
     z-index: 1;
 }
 
@@ -335,8 +335,8 @@ body {
 
 #album-art.active img.active {
     z-index: 1;
-    -webkit-animation: rotateAlbumArt 3s linear 0s infinite forwards;
-    animation: rotateAlbumArt 3s linear 0s infinite forwards;
+    -webkit-animation: rotateAlbumArt 10s linear 0s infinite forwards;
+    animation: rotateAlbumArt 10s linear 0s infinite forwards;
 }
 
 @-webkit-keyframes rotateAlbumArt {
