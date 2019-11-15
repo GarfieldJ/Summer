@@ -101,10 +101,11 @@ body {
 }
 
 #copyright {
-    margin-top: 10px;
+    margin-top: 40px;
     text-align: center;
     width: 100%;
-    color: #666
+    color: #666;
+    font-size: 12px;
 }
 
 #errorMsg {
@@ -173,7 +174,7 @@ body {
     top: 0;
     right: 15px;
     left: 15px;
-    padding: 13px 22px 10px 184px;
+    padding: 10px 10px 10px 170px;
     background-color: #fff7f7;
     border-radius: 15px 15px 0 0;
     transition: 0.3s ease top;
@@ -181,23 +182,23 @@ body {
 }
 
 #player-track.active {
-    top: -92px;
+    top: -90px;
 }
 
 #album-name {
     color: #54576f;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
 }
 
 #track-name {
     color: #acaebd;
-    font-size: 13px;
-    margin: 2px 0 13px 0;
+    font-size: 12px;
+    margin: 1px 0 13px 0;
 }
 
 #track-time {
-    height: 12px;
+    height: 14px;
     margin-bottom: 3px;
     overflow: hidden;
 }
@@ -330,11 +331,11 @@ body {
 
 #album-art img.active {
     opacity: 1;
-    z-index: 1;
+    z-index: -1;
 }
 
 #album-art.active img.active {
-    z-index: 1;
+    z-index: -1;
     -webkit-animation: rotateAlbumArt 10s linear 0s infinite forwards;
     animation: rotateAlbumArt 10s linear 0s infinite forwards;
 }

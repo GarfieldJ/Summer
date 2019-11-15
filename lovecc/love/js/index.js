@@ -24,158 +24,158 @@ $(function () {
         musicJson = [
             {
                 "name" : "Summer(菊次郎的夏天)",
-                "singer" : "久石让 - Summer",
+                "singer" : "久石让",
                 "url" : musicPath + "Summer.mp3",
                 "image": musicPath + "Summer.jpg"
             },
             {
                 "name" : "时代を超える想い",
-                "singer" : "和田薫 - 时代を超える想い",
+                "singer" : "和田薫",
                 "url" : musicPath + "时代を超える想い.mp3",
                 "image": musicPath + "穿越时空的思念.jpg"
             },
             {
+                "name" : "月灯りふんわり落ちてくる夜",
+                "singer" : "やなぎなぎ",
+                "url" : musicPath + "月灯りふんわり落ちてくる夜.mp3",
+                "image": musicPath + "月色真美.jpg"
+            },
+            {
                 "name" : "Heartbeats",
-                "singer" : "Amy Deasismont - Heartbeats",
+                "singer" : "Amy Deasismont",
                 "url" : musicPath + "Heartbeats.mp3",
                 "image": musicPath + "Heartbeats.jpg"
             },
             {
                 "name" : "茜さす",
-                "singer" : "Aimer - 茜さす",
+                "singer" : "Aimer",
                 "url" : musicPath + "茜さす.mp3",
                 "image": musicPath + "夏目.jpg"
             },
             {
-                "name" : "ヨスガノソラ メインテーマ -遠い空へ-",
-                "singer" : "Bruno Wen-li - ヨスガノソラ メインテーマ -遠い空へ-",
+                "name" : "遠い空へ",
+                "singer" : "Bruno Wen-li",
                 "url" : musicPath + "远空.mp3",
                 "image": musicPath + "远空.jpg"
             },
             {
                 "name" : "Take me hand",
-                "singer" : "DAISHI DANCE,Cecile Corbel - Take me hand",
+                "singer" : "DAISHI DANCE,Cecile Corbel",
                 "url" : musicPath + "Take me hand.mp3",
                 "image": musicPath + "TakeMeHand.jpg"
             },
             {
                 "name" : "打上花火",
-                "singer" : "DAOKO,米津玄師 - 打上花火",
+                "singer" : "DAOKO,米津玄師",
                 "url" : musicPath + "打上花火.mp3",
                 "image": musicPath + "打上花火.jpg"
             },
             {
                 "name" : "Love Theme",
-                "singer" : "Henry Mancini - Love Theme",
+                "singer" : "Henry Mancini",
                 "url" : musicPath + "Love Theme.mp3",
                 "image": musicPath + "LoveTheme.jpg"
             },
             {
                 "name" : "眉间雪",
-                "singer" : "HITA - 眉间雪",
+                "singer" : "HITA",
                 "url" : musicPath + "眉间雪.mp3",
                 "image": musicPath + "眉间雪.jpg"
             },
             {
                 "name" : "The Saltwater Room",
-                "singer" : "Owl City,Breanne Düren - The Saltwater Room",
+                "singer" : "Owl City,Breanne Düren",
                 "url" : musicPath + "The Saltwater Room.mp3",
                 "image": musicPath + "TheSaltwaterRoom.jpg"
             },
             {
                 "name" : "心拍数",
-                "singer" : "papiyon,初音ミク - 心拍数",
-                "url" : musicPath + "papiyon,初音ミク - 心拍数.mp3",
+                "singer" : "papiyon,初音ミク",
+                "url" : musicPath + "心拍数.mp3",
                 "image": musicPath + "心拍数.jpg"
             },
             {
                 "name" : "My Love",
-                "singer" : "Westlife - My Love",
-                "url" : musicPath + "Westlife - My Love.mp3",
+                "singer" : "Westlife",
+                "url" : musicPath + "My Love.mp3",
                 "image": musicPath + "MyLove.jpg"
             },
             {
-                "name" : "月灯りふんわり落ちてくる夜",
-                "singer" : "やなぎなぎ - 月灯りふんわり落ちてくる夜",
-                "url" : musicPath + "やなぎなぎ - 月灯りふんわり落ちてくる夜.mp3",
-                "image": musicPath + "月色真美.jpg"
-            },
-            {
                 "name" : "忆似故人曲",
-                "singer" : "兔裹煎蛋卷 - 忆似故人曲",
-                "url" : musicPath + "兔裹煎蛋卷 - 忆似故人曲.mp3",
+                "singer" : "兔裹煎蛋卷",
+                "url" : musicPath + "忆似故人曲.mp3",
                 "image": musicPath + "忆似故人曲.jpg"
             },
             {
                 "name" : "千年泪",
-                "singer" : "Tank - 千年泪",
-                "url" : musicPath + "Tank - 千年泪.mp3",
+                "singer" : "Tank",
+                "url" : musicPath + "千年泪.mp3",
                 "image": musicPath + "千年泪.jpg"
             },
             {
                 "name" : "梦回还",
-                "singer" : "呦猫UNEKO - 梦回还",
-                "url" : musicPath + "呦猫UNEKO - 梦回还.mp3",
+                "singer" : "呦猫UNEKO",
+                "url" : musicPath + "梦回还.mp3",
                 "image": musicPath + "梦回还.jpg"
             },
             {
                 "name" : "芊芊",
-                "singer" : "回音哥 - 芊芊",
-                "url" : musicPath + "回音哥 - 芊芊.mp3",
+                "singer" : "回音哥",
+                "url" : musicPath + "芊芊.mp3",
                 "image": musicPath + "芊芊.jpg"
             },
             {
                 "name" : "夜的钢琴曲五",
-                "singer" : "石进 - 夜的钢琴曲五",
-                "url" : musicPath + "石进 - 夜的钢琴曲五.mp3",
+                "singer" : "石进",
+                "url" : musicPath + "夜的钢琴曲五.mp3",
                 "image": musicPath + "夜的钢琴曲五.jpg"
             },
             {
                 "name" : "Lemon",
-                "singer" : "米津玄师 - Lemon",
-                "url" : musicPath + "米津玄师 - Lemon.mp3",
+                "singer" : "米津玄师",
+                "url" : musicPath + "Lemon.mp3",
                 "image": musicPath + "Lemon.jpg"
             },
             {
                 "name" : "石楠小札",
-                "singer" : "蔡翊昇 - 石楠小札",
-                "url" : musicPath + "蔡翊昇 - 石楠小札.mp3",
+                "singer" : "二婶",
+                "url" : musicPath + "石楠小札.mp3",
                 "image": musicPath + "石楠小札.jpg"
             },
             {
                 "name" : "Dear・・・",
-                "singer" : "西野カナ - Dear・・・",
-                "url" : musicPath + "西野カナ - Dear・・・.mp3",
+                "singer" : "西野カナ",
+                "url" : musicPath + "Dear・・・.mp3",
                 "image": musicPath + "Dear.jpg"
             },
             {
                 "name" : "少年锦时",
-                "singer" : "赵雷 - 少年锦时",
+                "singer" : "赵雷",
                 "url" : musicPath + "少年锦时.mp3",
                 "image": musicPath + "少年锦时.jpg"
             },
             {
                 "name" : "云烟成雨",
-                "singer" : "房东的猫 - 云烟成雨",
-                "url" : musicPath + "房东的猫 - 云烟成雨.mp3",
+                "singer" : "房东的猫",
+                "url" : musicPath + "云烟成雨.mp3",
                 "image": musicPath + "云烟成雨.jpg"
             },
             {
-                "name" : "玄觞 - 黯然销魂.mp3",
-                "singer" : "玄觞 - 黯然销魂.mp3",
-                "url" : musicPath + "玄觞 - 黯然销魂.mp3",
+                "name" : "黯然销魂",
+                "singer" : "玄觞",
+                "url" : musicPath + "黯然销魂.mp3",
                 "image": musicPath + "黯然销魂.jpg"
             },
             {
                 "name" : "往后余生",
-                "singer" : "王贰浪 - 往后余生",
-                "url" : musicPath + "王贰浪 - 往后余生.mp3",
+                "singer" : "王贰浪",
+                "url" : musicPath + "往后余生.mp3",
                 "image": musicPath + "往后余生.jpg"
             },
             {
                 "name" : "追光者",
-                "singer" : "岑宁儿 - 追光者",
-                "url" : musicPath + "岑宁儿 - 追光者.mp3",
+                "singer" : "岑宁儿",
+                "url" : musicPath + "追光者.mp3",
                 "image": musicPath + "追光者.jpg"
             }
         ];
@@ -339,12 +339,20 @@ $(function () {
         bTime = bTime.getTime();
 
         if (flag != 0) {
-            audio.play();
-            playerTrack.addClass('active');
-            albumArt.addClass('active');
+            var playPromise;
+            playPromise = audio.play();
 
-            clearInterval(buffInterval);
-            checkBuffering();
+            if (playPromise) {
+                playPromise.then(() => {
+                    // 音频加载成功
+                    playerTrack.addClass('active');
+                    albumArt.addClass('active');
+                    clearInterval(buffInterval);
+                    checkBuffering();
+                }).catch((e) => {
+                    // 音频加载失败
+                });
+            }
         }
 
         albumName.text(musicConf['name']);
