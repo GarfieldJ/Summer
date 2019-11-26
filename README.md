@@ -6,7 +6,7 @@
 - 一个日期
 - 几首音乐
 
-链接 [http://www.cherrycc.com/love](http://www.cherrycc.com/love "陪你走过一年四季")
+在线链接 [http://www.cherrycc.com/love](http://www.cherrycc.com/love "陪你走过一年四季")
 
 # 特别说明 #
 1. 最开始是一个爱心garden,加上日期显示，做纪念。
@@ -16,4 +16,4 @@
 
 代码都是拿开源东拼西凑的,本人非前端。
 
-# 欢迎star
+# 欢迎star #
