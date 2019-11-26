@@ -20,13 +20,14 @@ $(function () {
         garden.render()
     }, Garden.options.growSpeed)
 });
-$(window).resize(function () {
-    var b = $(window).width();
-    var a = $(window).height();
-    if (b != clientWidth && a != clientHeight) {
-        location.replace(location)
-    }
-});
+// 变动位置，重绘，比较蛋疼
+// $(window).resize(function () {
+//     var b = $(window).width();
+//     var a = $(window).height();
+//     if (b != clientWidth && a != clientHeight) {
+//         location.replace(location)
+//     }
+// });
 
 function getHeartPoint(c) {
     var b = c / Math.PI;
@@ -116,12 +117,12 @@ function showMessages() {
 
 function adjustWordsPosition() {
     $("#words").css("position", "absolute");
-    $("#words").css("top", $("#garden").position().top + 195);
-    $("#words").css("left", $("#garden").position().left + 70)
+    $("#words").css("top", $("#garden").position().top + 260);
+    $("#words").css("left", $("#garden").position().left + 235)
 }
 
 function adjustCodePosition() {
-    $("#code").css("margin-top", ($("#garden").height() - $("#code").height()) / 2)
+    $("#code").css("margin-top", ($("#garden").height() - $("#code").height()) / 4)
 }
 
 function showLoveU() {

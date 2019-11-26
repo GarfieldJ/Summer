@@ -45,3 +45,13 @@
     };
 
 })(jQuery);
+
+function initSnow() {
+    $.fn.snow({
+        minSize: 10,	//雪花的最小尺寸
+        maxSize: 40, 	//雪花的最大尺寸
+        newOn: 500,		//雪花出现的频率 这个数值越小雪花越多
+        flakeColor: "#FFFFFF",
+        durationMillis: null  // 一定时间后停止产生
+    });
+}

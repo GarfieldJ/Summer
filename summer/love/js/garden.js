@@ -1,3 +1,4 @@
+
 function Vector(a, b) {
     this.x = a;
     this.y = b

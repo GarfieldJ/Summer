@@ -339,20 +339,12 @@ $(function () {
         bTime = bTime.getTime();
 
         if (flag != 0) {
-            var playPromise;
-            playPromise = audio.play();
-
-            if (playPromise) {
-                playPromise.then(() => {
-                    // 音频加载成功
-                    playerTrack.addClass('active');
-                    albumArt.addClass('active');
-                    clearInterval(buffInterval);
-                    checkBuffering();
-                }).catch((e) => {
-                    // 音频加载失败
-                });
-            }
+            audio.play();
+            // 音频加载成功
+            playerTrack.addClass('active');
+            albumArt.addClass('active');
+            clearInterval(buffInterval);
+            checkBuffering();
         }
 
         albumName.text(musicConf['name']);
@@ -395,5 +387,46 @@ $(function () {
         },false);
     }
 
+    function initGarden() {
+
+        var together = new Date();
+        together.setFullYear(2019, 7, 21);
+        together.setHours(0);
+        together.setMinutes(0);
+        together.setSeconds(0);
+        together.setMilliseconds(0);
+
+        setTimeout(function () {
+            startHeartAnimation();
+        },2000);
+
+        timeElapse(together);
+        setInterval(function () {
+            timeElapse(together);
+        }, 500);
+
+        adjustCodePosition();
+        $("#code").typewriter();
+    }
+
+    function initBackground() {
+        if (Math.random() < 0.6) {
+            initSnow();
+        } else {
+            /* 去除背景图 */
+            $('#bg-artwork').remove();
+            $('#bg-layer').remove();
+            $('#words').css({'color':'#f44'});
+            $('#copyright').css({'color': '#f66'});
+
+            /* 初始樱花 */
+            initSakura();
+        }
+    }
+
+    initBackground();
     initPlayer();
+    initGarden();
+    /* 随机一首歌 */
+    selectTrack(Math.round(Math.random() * musicJson.length));
 });
