@@ -28,8 +28,9 @@ function loadWidget(waifuPath, apiPath) {
 				if (!window.ASTEROIDSPLAYERS) window.ASTEROIDSPLAYERS = [];
 				window.ASTEROIDSPLAYERS.push(new Asteroids());
 			} else {
+				/* 小飞机 */
 				$.ajax({
-					url: "https://cdn.jsdelivr.net/gh/GalaxyMimi/CDN/asteroids.js",
+					url: "/love/love/live2d/asteroids.js",
 					dataType: "script",
 					cache: true
 				});
