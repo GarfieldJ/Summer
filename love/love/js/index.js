@@ -293,10 +293,10 @@ $(function () {
         }, 100);
     }
 
-    function selectTrack(flag) {
+    function selectTrack(flag, init) {
         currIndex = (currIndex + flag + musicJson.length) % musicJson.length;
         musicConf = musicJson[currIndex];
-        if (flag == 0)
+        if (init === 0)
             i.attr('class', 'fa fa-play');
         else {
             albumArt.removeClass('buffering');
@@ -314,7 +314,7 @@ $(function () {
         bTime = new Date();
         bTime = bTime.getTime();
 
-        if (flag != 0) {
+        if (init !== 0) {
             audio.play();
             // 音频加载成功
             playerTrack.addClass('active');
@@ -335,7 +335,8 @@ $(function () {
 
     function initPlayer() {
         // audio = new Audio();
-        selectTrack(0);
+        selectTrack(Math.round(Math.random() * musicJson.length), 0);
+
         audio.loop = false;
 
         playPauseButton.on('click', playPause);
@@ -401,8 +402,7 @@ $(function () {
     }
 
     initBackground();
-    initPlayer();
     initGarden();
-    /* 随机一首歌 */
-    selectTrack(Math.round(Math.random() * musicJson.length));
+    initPlayer();
+
 });
