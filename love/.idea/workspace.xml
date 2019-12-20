@@ -7,17 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="776b613c-5877-4cdc-b5af-46b0e49e6c4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/love/images/Love Theme.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/love/images/LoveTheme.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/love/images/打上花火.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/love/images/打上花火.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/love/images/梦回还.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/love/images/梦回还.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/love/images/芊芊.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/love/images/芊芊.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/love/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/love/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/love/live2d-widget" beforeDir="false" afterPath="$PROJECT_DIR$/love/live2d-widget" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/love/live2d-widget/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/love/live2d-widget/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/love/live2d-widget/assets/screenshot-1.png" beforeDir="false" />
@@ -29,7 +18,6 @@
       <change beforePath="$PROJECT_DIR$/love/live2d-widget/waifu-tips.js" beforeDir="false" afterPath="$PROJECT_DIR$/love/live2d-widget/waifu-tips.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/love/live2d-widget/waifu-tips.json" beforeDir="false" afterPath="$PROJECT_DIR$/love/live2d-widget/waifu-tips.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/love/live2d-widget/waifu.css" beforeDir="false" afterPath="$PROJECT_DIR$/love/live2d-widget/waifu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/loveSummer/loveSummer.war" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,6 +81,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>github.com/</find>
+      <find>solid.css</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,7 +160,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576824246861" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576824581904" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -202,12 +191,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576822833239</updated>
-      <workItem from="1576822836513" duration="1411000" />
+      <workItem from="1576822836513" duration="1746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1411000" />
+    <option name="totallyTimeSpent" value="1746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1037" extended-state="6" />
