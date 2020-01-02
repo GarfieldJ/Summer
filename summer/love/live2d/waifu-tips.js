@@ -30,7 +30,7 @@ function loadWidget(waifuPath, apiPath) {
 			} else {
 				/* 小飞机 */
 				$.ajax({
-					url: "/love/love/live2d/asteroids.js",
+					url: "/summer/love/live2d/asteroids.js",
 					dataType: "script",
 					cache: true
 				});
@@ -61,7 +61,7 @@ function loadWidget(waifuPath, apiPath) {
 			return "";
 		};
 		window.addEventListener("copy", () => {
-			showMessage("你都复制了些什么呀，转载要记得加上出处哦！", 6000, 9);
+			showMessage("你都复制了些什么呀，能不能让我康康！", 6000, 9);
 		});
 		window.addEventListener("visibilitychange", () => {
 			if (!document.hidden) showMessage("哇，你终于回来了～", 6000, 9);
@@ -70,26 +70,18 @@ function loadWidget(waifuPath, apiPath) {
 	registerEventListener();
 
 	function welcomeMessage() {
-		var SiteIndexUrl = `${location.protocol}//${location.host}/`, text; //自动获取主页
-		if (location.href == SiteIndexUrl) { //如果是主页
+		var text, SiteIndexUrl = `${location.protocol}//${location.host}/summer/`; // 自动获取我的主页
+		if (location.href === SiteIndexUrl) { // 如果是主页
 			var now = new Date().getHours();
-			if (now > 5 && now <= 7) text = "早上好！一日之计在于晨，美好的一天就要开始了。";
-			else if (now > 7 && now <= 11) text = "上午好！工作顺利嘛，不要久坐，多起来走动走动哦！";
-			else if (now > 11 && now <= 14) text = "中午了，工作了一个上午，现在是午餐时间！";
-			else if (now > 14 && now <= 17) text = "午后很容易犯困呢，今天的运动目标完成了吗？";
-			else if (now > 17 && now <= 19) text = "傍晚了！窗外夕阳的景色很美丽呢，最美不过夕阳红～";
-			else if (now > 19 && now <= 21) text = "晚上好，今天过得怎么样？";
-			else if (now > 21 && now <= 23) text = ["已经这么晚了呀，早点休息吧，晚安～", "深夜时要爱护眼睛呀！"];
+			if (now > 5 && now <= 8) text = "早上好！一日之计在于晨，美好的一天就要开始了。";
+			else if (now > 8 && now <= 11) text = "上午好！工作顺利嘛，不要久坐，多起来走动走动哦！";
+			else if (now > 11 && now <= 14) text = "中午了，工作了一个上午，午餐过后小憩一会哦！";
+			else if (now > 14 && now <= 17) text = "午后很容易犯困呢，来个下午茶休息一下吧！";
+			else if (now > 17 && now <= 18) text = "傍晚了！窗外夕阳的景色很美丽呢～，脑海中第一个想分享的人是谁呢！";
+			else if (now > 18 && now <= 20) text = ["下班了！回家陪陪家人～", "今天也是想听你唱歌的一天呢～"];
+			else if (now > 20 && now <= 22) text = "晚上好，今天过得怎么样，有没有想我呢？";
+			else if (now > 22 && now <= 24) text = ["已经这么晚了呀，早点休息吧，晚安～", "深夜时要爱护眼睛呀！"];
 			else text = "你是夜猫子呀？这么晚还不睡觉，明天起的来嘛？";
-		} else if (document.referrer !== "") {
-			var referrer = document.createElement("a");
-			referrer.href = document.referrer;
-			var domain = referrer.hostname.split(".")[1];
-			if (location.hostname == referrer.hostname) text = `欢迎阅读<span style="color:#0099cc;">『${document.title.split(" - ")[0]}』</span>`;
-			else if (domain == "baidu") text = `Hello！来自 百度搜索 的朋友<br>你是搜索 <span style="color:#0099cc;">${referrer.search.split("&wd=")[1].split("&")[0]}</span> 找到的我吗？`;
-			else if (domain == "so") text = `Hello！来自 360搜索 的朋友<br>你是搜索 <span style="color:#0099cc;">${referrer.search.split("&q=")[1].split("&")[0]}</span> 找到的我吗？`;
-			else if (domain == "google") text = `Hello！来自 谷歌搜索 的朋友<br>欢迎阅读<span style="color:#0099cc;">『${document.title.split(" - ")[0]}』</span>`;
-			else text = `Hello！来自 <span style="color:#0099cc;">${referrer.hostname}</span> 的朋友`;
 		} else {
 			text = `欢迎阅读<span style="color:#0099cc;">『${document.title.split(" - ")[0]}』</span>`;
 		}
@@ -153,8 +145,9 @@ function loadWidget(waifuPath, apiPath) {
 			modelTexturesId = localStorage.getItem("modelTexturesId");
 		if (modelId == null) {
 			//首次访问加载 指定模型 的 指定材质
-			var modelId = 6, //模型 ID
-				modelTexturesId = 8; //材质 ID
+			// 5-2是小萌喜欢的，6-8圣诞
+			var modelId = 5, //模型 ID
+				modelTexturesId = 2; //材质 ID
 		}
 		loadModel(modelId, modelTexturesId);
 		fetch(waifuPath)

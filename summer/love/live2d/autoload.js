@@ -1,5 +1,5 @@
 //注意：live2d_path参数应使用绝对路径
-const live2d_path = "/love/love/live2d/";
+const live2d_path = "/summer/love/live2d/";
 const live2d_api = "http://www.cherrycc.com:81/api";
 
 //封装异步加载资源的方法
